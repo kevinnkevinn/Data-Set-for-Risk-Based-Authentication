@@ -1,0 +1,27 @@
+# ---- Python cache ----
+__pycache__/
+*.pyc
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ---- VS Code ----
+.vscode/
+
+# ---- Virtual environments (di mana pun letaknya) ----
+.venv*/
+venv/
+**/.venv*/
+**/venv/
+.venv312/
+Device_Fingerprinting_Portfolio/.venv/
+
+# ---- DLL & binary runtime dari packages (tidak perlu di repo) ----
+*.dll
+*.pyd
+
+# ---- Logs & temp ----
+*.log
+*.tmp
+.cache/

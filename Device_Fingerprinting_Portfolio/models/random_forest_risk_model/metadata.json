@@ -1,0 +1,14 @@
+{
+  "model_type": "RandomForestClassifier",
+  "training_date": "2025-11-08T21:32:27.713486",
+  "feature_count": 5,
+  "model_version": "1.0.0",
+  "feature_names_sample": [
+    "x0",
+    "x1",
+    "x2",
+    "x3",
+    "x4"
+  ],
+  "storage_path": "D:\\Portofolio Data\\Data Set for Risk-Based Authentication\\models\\random_forest_risk_model"
+}
