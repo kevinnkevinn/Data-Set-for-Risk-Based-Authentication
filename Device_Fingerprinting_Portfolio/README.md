@@ -1,7 +1,7 @@
 ﻿# Device Fingerprinting Portfolio (with RBA Signals)
 
 ## Quickstart
-\\\ash
+
 # 1) Create venv (Windows)
 python -m venv .venv
 .venv\\Scripts\\activate
@@ -16,7 +16,7 @@ uvicorn src.api.app:app --reload --port 8000
 \\\
 
 ## Docker
-\\\ash
+\\\bash
 docker build -t device-fp .
 docker run -p 8000:8000 device-fp
 \\\
@@ -27,3 +27,4 @@ docker run -p 8000:8000 device-fp
 - src/: features, models, utils, FastAPI
 - models/random_forest_risk_model/: pretrained artifacts (optional)
 - scripts/: setup scripts (Windows)
+
